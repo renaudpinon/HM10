@@ -156,8 +156,7 @@
 				TargetAttributes = {
 					A23824CC1E4A31D600E91641 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = D4BBE6G87V;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -321,7 +320,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = D4BBE6G87V;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HM10_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -335,7 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = D4BBE6G87V;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HM10_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -364,6 +363,7 @@
 				A23824E61E4A31D600E91641 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
