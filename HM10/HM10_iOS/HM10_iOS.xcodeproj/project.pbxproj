@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A23824D21E4A31D600E91641 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A23824D11E4A31D600E91641 /* main.m */; };
+		A23824D51E4A31D600E91641 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A23824D41E4A31D600E91641 /* AppDelegate.m */; };
+		A23824DB1E4A31D600E91641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23824D91E4A31D600E91641 /* Main.storyboard */; };
+		A23824DD1E4A31D600E91641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23824DC1E4A31D600E91641 /* Assets.xcassets */; };
+		A23824E01E4A31D600E91641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23824DE1E4A31D600E91641 /* LaunchScreen.storyboard */; };
+		A23824EB1E4A323700E91641 /* VCList.m in Sources */ = {isa = PBXBuildFile; fileRef = A23824EA1E4A323700E91641 /* VCList.m */; };
+		A23824EE1E4A326600E91641 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23824ED1E4A326600E91641 /* CoreBluetooth.framework */; };
+		A23824F11E4A329A00E91641 /* VCMain.m in Sources */ = {isa = PBXBuildFile; fileRef = A23824F01E4A329A00E91641 /* VCMain.m */; };
+		A23824F51E4A376800E91641 /* UICellDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A23824F41E4A376800E91641 /* UICellDevice.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A23824CD1E4A31D600E91641 /* HM10_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HM10_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23824D11E4A31D600E91641 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A23824D31E4A31D600E91641 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A23824D41E4A31D600E91641 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A23824DA1E4A31D600E91641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A23824DC1E4A31D600E91641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A23824DF1E4A31D600E91641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A23824E11E4A31D600E91641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23824E91E4A323700E91641 /* VCList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCList.h; path = Classes/ViewControllers/VCList.h; sourceTree = "<group>"; };
+		A23824EA1E4A323700E91641 /* VCList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCList.m; path = Classes/ViewControllers/VCList.m; sourceTree = "<group>"; };
+		A23824ED1E4A326600E91641 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		A23824EF1E4A329A00E91641 /* VCMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCMain.h; path = Classes/ViewControllers/VCMain.h; sourceTree = "<group>"; };
+		A23824F01E4A329A00E91641 /* VCMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCMain.m; path = Classes/ViewControllers/VCMain.m; sourceTree = "<group>"; };
+		A23824F31E4A376800E91641 /* UICellDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UICellDevice.h; path = Classes/UI/UICellDevice.h; sourceTree = "<group>"; };
+		A23824F41E4A376800E91641 /* UICellDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICellDevice.m; path = Classes/UI/UICellDevice.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A23824CA1E4A31D600E91641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23824EE1E4A326600E91641 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A23824C41E4A31D600E91641 = {
+			isa = PBXGroup;
+			children = (
+				A23824CF1E4A31D600E91641 /* HM10_iOS */,
+				A23824CE1E4A31D600E91641 /* Products */,
+				A23824EC1E4A326600E91641 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A23824CE1E4A31D600E91641 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A23824CD1E4A31D600E91641 /* HM10_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A23824CF1E4A31D600E91641 /* HM10_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A23824D31E4A31D600E91641 /* AppDelegate.h */,
+				A23824D41E4A31D600E91641 /* AppDelegate.m */,
+				A23824E71E4A31F600E91641 /* Classes */,
+				A23824D91E4A31D600E91641 /* Main.storyboard */,
+				A23824DC1E4A31D600E91641 /* Assets.xcassets */,
+				A23824DE1E4A31D600E91641 /* LaunchScreen.storyboard */,
+				A23824E11E4A31D600E91641 /* Info.plist */,
+				A23824D01E4A31D600E91641 /* Supporting Files */,
+			);
+			path = HM10_iOS;
+			sourceTree = "<group>";
+		};
+		A23824D01E4A31D600E91641 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A23824D11E4A31D600E91641 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A23824E71E4A31F600E91641 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A23824F21E4A375D00E91641 /* UI */,
+				A23824E81E4A31FC00E91641 /* ViewControllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A23824E81E4A31FC00E91641 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A23824E91E4A323700E91641 /* VCList.h */,
+				A23824EA1E4A323700E91641 /* VCList.m */,
+				A23824EF1E4A329A00E91641 /* VCMain.h */,
+				A23824F01E4A329A00E91641 /* VCMain.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A23824EC1E4A326600E91641 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A23824ED1E4A326600E91641 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A23824F21E4A375D00E91641 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A23824F31E4A376800E91641 /* UICellDevice.h */,
+				A23824F41E4A376800E91641 /* UICellDevice.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A23824CC1E4A31D600E91641 /* HM10_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23824E41E4A31D600E91641 /* Build configuration list for PBXNativeTarget "HM10_iOS" */;
+			buildPhases = (
+				A23824C91E4A31D600E91641 /* Sources */,
+				A23824CA1E4A31D600E91641 /* Frameworks */,
+				A23824CB1E4A31D600E91641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HM10_iOS;
+			productName = HM10_iOS;
+			productReference = A23824CD1E4A31D600E91641 /* HM10_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A23824C51E4A31D600E91641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "RP Pour Programmez";
+				TargetAttributes = {
+					A23824CC1E4A31D600E91641 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D4BBE6G87V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A23824C81E4A31D600E91641 /* Build configuration list for PBXProject "HM10_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A23824C41E4A31D600E91641;
+			productRefGroup = A23824CE1E4A31D600E91641 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A23824CC1E4A31D600E91641 /* HM10_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A23824CB1E4A31D600E91641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23824E01E4A31D600E91641 /* LaunchScreen.storyboard in Resources */,
+				A23824DD1E4A31D600E91641 /* Assets.xcassets in Resources */,
+				A23824DB1E4A31D600E91641 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A23824C91E4A31D600E91641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23824F11E4A329A00E91641 /* VCMain.m in Sources */,
+				A23824F51E4A376800E91641 /* UICellDevice.m in Sources */,
+				A23824D51E4A31D600E91641 /* AppDelegate.m in Sources */,
+				A23824EB1E4A323700E91641 /* VCList.m in Sources */,
+				A23824D21E4A31D600E91641 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A23824D91E4A31D600E91641 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23824DA1E4A31D600E91641 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A23824DE1E4A31D600E91641 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23824DF1E4A31D600E91641 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A23824E21E4A31D600E91641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A23824E31E4A31D600E91641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A23824E51E4A31D600E91641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D4BBE6G87V;
+				INFOPLIST_FILE = HM10_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rptest.com.HM10-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A23824E61E4A31D600E91641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D4BBE6G87V;
+				INFOPLIST_FILE = HM10_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rptest.com.HM10-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A23824C81E4A31D600E91641 /* Build configuration list for PBXProject "HM10_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23824E21E4A31D600E91641 /* Debug */,
+				A23824E31E4A31D600E91641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23824E41E4A31D600E91641 /* Build configuration list for PBXNativeTarget "HM10_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23824E51E4A31D600E91641 /* Debug */,
+				A23824E61E4A31D600E91641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A23824C51E4A31D600E91641 /* Project object */;
+}
